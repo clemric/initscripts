@@ -1,7 +1,7 @@
 #!/bin/bash
 export DEBIAN_FRONTEND=noninteractive
 
-apt-get -y install vim tree zsh git curl wget
+apt-get -y install vim tree zsh git git-flow curl wget
 
 #install oh my zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
