@@ -3,7 +3,12 @@ export DEBIAN_FRONTEND=noninteractive
 
 sudo apt-get -y update
 sudo apt-get -y upgrade
-sudo apt-get -y install vim tree zsh git git-flow curl wget terminator
+#console main apps
+sudo apt-get -y install zsh curl wget vim
+#console tools
+sudo apt-get -y install tree terminator xclip detox figlet
+#other tools
+sudo apt-get -y install git git-flow nfs-common abcde flac
 
 #install oh my zsh
 #sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
